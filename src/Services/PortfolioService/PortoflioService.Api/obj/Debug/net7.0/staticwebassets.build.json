@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pPq5xjZpq5ISvEyPX7fLpUJ2V+LwSShhIyJTdpGr97A=",
+  "Source": "PortoflioService.Api",
+  "BasePath": "_content/PortoflioService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

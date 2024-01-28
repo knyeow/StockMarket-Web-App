@@ -1,0 +1,167 @@
+{
+  "Routes": [
+    //Auth Web Api
+    //register
+    {
+      "DownstreamPathTemplate": "/api/Authentication/register",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8003
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/Authentication/register",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //login
+    {
+      "DownstreamPathTemplate": "/api/Authentication/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8003
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/Authentication/login",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+
+    //Catalog Web Api
+
+    //get all stocks
+    {
+      "DownstreamPathTemplate": "/api/Stock/All",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/stock/all",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+
+    //get , delete , patch stock by id
+    {
+      "DownstreamPathTemplate": "/api/Stock/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/stock/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete", "Patch" ]
+    },
+
+    //post new stock
+    {
+      "DownstreamPathTemplate": "/api/Stock",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/stock",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //update all stock price
+    {
+      "DownstreamPathTemplate": "/api/Stock/UpdatePrices",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/stock/UpdatePrices",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+
+    //Portfolio Web Api
+
+    //get by portfolio id
+    {
+      "DownstreamPathTemplate": "/api/portfolio/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/portfolio/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //get by user id
+    {
+      "DownstreamPathTemplate": "/api/portfolio/main/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/portfolio/main/{userId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //post portfolio by user id from body
+    {
+      "DownstreamPathTemplate": "/api/portfolio",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/portfolio",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    //post stockposition by stockpositionrequest frombody
+    {
+      "DownstreamPathTemplate": "/api/portfolio/AddStockPosition",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/portfolio/AddStockPosition",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    //add balance by portfolioId + balance from route
+    {
+      "DownstreamPathTemplate": "/api/portfolio/AddBalance/{portId}/{balance}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/portfolio/AddBalance/{portId}/{balance}",
+      "UpstreamHttpMethod": [ "Post" ]
+    }
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:8000"
+  }
+}

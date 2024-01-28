@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "334M6yZ91bLu7VIfxzNidgglt6RbVZ7gkRxUZNQ7FMw=",
+  "Source": "WebApiGateway.Api",
+  "BasePath": "_content/WebApiGateway.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

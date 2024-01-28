@@ -1,0 +1,12 @@
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\bin\Debug\net7.0\JwtAuthenticationManager.deps.json
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\bin\Debug\net7.0\JwtAuthenticationManager.dll
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\bin\Debug\net7.0\JwtAuthenticationManager.pdb
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.csproj.AssemblyReference.cache
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.AssemblyInfoInputs.cache
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.AssemblyInfo.cs
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.dll
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\refint\JwtAuthenticationManager.dll
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\JwtAuthenticationManager.pdb
+C:\Users\Ege\source\Projects\StockMarket\src\Libraries\JwtAuthenticationManager\obj\Debug\net7.0\ref\JwtAuthenticationManager.dll

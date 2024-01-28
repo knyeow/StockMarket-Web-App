@@ -1,0 +1,12 @@
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\bin\Debug\net7.0\IdentityService.EmailService.deps.json
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\bin\Debug\net7.0\IdentityService.EmailService.dll
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\bin\Debug\net7.0\IdentityService.EmailService.pdb
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.csproj.AssemblyReference.cache
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.AssemblyInfoInputs.cache
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.AssemblyInfo.cs
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.csproj.CoreCompileInputs.cache
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.dll
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\refint\IdentityService.EmailService.dll
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\IdentityService.EmailService.pdb
+C:\Users\Ege\source\Projects\StockMarket\src\Services\IdentityService\IdentityService.EmailService\obj\Debug\net7.0\ref\IdentityService.EmailService.dll
